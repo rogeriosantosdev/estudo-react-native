@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, StyleSheet } from 'react-native'
-import Filho from './components/indireta/Filho'
+// import Filho from './components/indireta/Filho'
 // import Primeiro from './components/Primeiro'
 // import X, { Comp2, Comp3} from './components/Multi'
 // import MinMax from './components/MinMax'
@@ -9,15 +9,16 @@ import Filho from './components/indireta/Filho'
 // import Botao from './components/Botao'
 // import Contador from './components/Contador'
 // import Pai from './components/indireta/Pai'
-import ContadorV2 from './components/contador/ContadorV2'
-
+// import ContadorV2 from './components/contador/ContadorV2'
+import Diferenciar from './components/Diferenciar'
 
 export default () => (
     <View style={style.App}>
 
-        <ContadorV2/>
+        <Diferenciar/>
 
         {/*<MinMax min={1} max={209}/>
+        <ContadorV2/>
         <Pai/>
         <Contador inicial={100} passo={13}/>
         <Botao/>
