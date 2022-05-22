@@ -8,13 +8,17 @@ import Filho from './components/indireta/Filho'
 // import Frag from './components/Frag'
 // import Botao from './components/Botao'
 // import Contador from './components/Contador'
-import Pai from './components/indireta/Pai'
+// import Pai from './components/indireta/Pai'
+import ContadorV2 from './components/contador/ContadorV2'
+
 
 export default () => (
     <View style={style.App}>
 
-        <Pai/>
+        <ContadorV2/>
+
         {/*<MinMax min={1} max={209}/>
+        <Pai/>
         <Contador inicial={100} passo={13}/>
         <Botao/>
         <Frag principal="Cadastro" secundario="Tela de Cadastro do Produto"/>
