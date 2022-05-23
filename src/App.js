@@ -16,15 +16,21 @@ import { View, StyleSheet, SafeAreaView } from 'react-native'
 // import Filho from './components/relacao/Filho'
 // import UsuarioLogado from './components/UsuarioLogado'
 // import ListaProdutos from './components/Produtos/ListaProdutos'
-//import ListaProdutosV2 from './components/Produtos/ListaProdutosV2'
-import DigiteSeuNome from './components/DigiteSeuNome'
-
+// import ListaProdutosV2 from './components/Produtos/ListaProdutosV2'
+// import DigiteSeuNome from './components/DigiteSeuNome'
+// import FlexboxV1 from './components/layout/FlexboxV1'
+// import FlexboxV2 from './components/layout/FlexboxV2'
+// import FlexboxV3 from './components/layout/FlexboxV3'
+import FlexboxV4 from './components/layout/FlexboxV4'
 export default () => (
     <SafeAreaView style={style.App}>
-        
-        <DigiteSeuNome/>
-        
+
+        <FlexboxV4/>
         {/*<MinMax min={1} max={209}/>
+        <FlexboxV3/>
+        <FlexboxV2/>
+        <FlexboxV1/>
+        <DigiteSeuNome/>
         <ListaProdutosV2/>
         <ListaProdutos/>
         <UsuarioLogado usuario={{nome: 'Gui', email: 'gui@gui.com'}}/>

@@ -1,6 +1,5 @@
 import React, { useState, Component } from 'react'
 import {Text, Button, View} from 'react-native'
-import { Fragment } from 'react/cjs/react.production.min'
 import estilo from './estilo'
 
 export default props => {
@@ -16,7 +15,6 @@ export default props => {
 
     return(
         <>
-        
             <Text style={estilo.txtGrande}>{numero}</Text>
             <Button title="+" onPress={inc}/>
             <Button title="-" onPress={dec}/>
